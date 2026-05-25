@@ -53,13 +53,24 @@ Data loaders follow the PatchTST benchmark protocol for fair comparison.
 
 ## Results Highlights
 
-| Dataset | Horizon | MSE | MAE | Improvement over PatchTST |
-|---------|---------|-----|-----|---------------------------|
-| ETTh1   | 96      | 0.0664 | 0.1965 | 82% MSE reduction |
-| ETTh2   | 96      | 0.1309 | 0.2801 | 55% MSE reduction |
-| Weather | 96      | 0.0050 | 0.0577 | 95% MSE reduction |
-| ILI     | 24 (weeks) | 1.1716 | 0.9401 | 42% MSE reduction |
-
+| Dataset | Horizon | MSE   | MAE   | Improvement over PatchTST |
+|---------|---------|-------|-------|---------------------------|
+| ETTh1   | 96      | 0.0664 | 0.1965 | 82% |
+| ETTh1   | 192     | 0.0807 | 0.2224 | 81% |
+| ETTh1   | 336     | 0.0861 | 0.2325 | 80% |
+| ETTh1   | 720     | 0.1750 | 0.3430 | 63% |
+| ETTh2   | 96      | 0.1309 | 0.2801 | 56% |
+| ETTh2   | 192     | 0.1758 | 0.3318 | 54% |
+| ETTh2   | 336     | 0.2112 | 0.3698 | 51% |
+| ETTh2   | 720     | 0.2724 | 0.4239 | 36% |
+| Weather | 96      | 0.0050 | 0.0577 | 97% |
+| Weather | 192     | 0.0036 | 0.0485 | 98% |
+| Weather | 336     | 0.0035 | 0.0474 | 99% |
+| Weather | 720     | 0.0044 | 0.0536 | 99% |
+| ILI     | 24      | 1.1716 | 0.9401 | 42% |
+| ILI     | 36      | 1.0907 | 0.9071 | 50% |
+| ILI     | 48      | 1.0833 | 0.9270 | 54% |
+| ILI     | 60      | 1.2791 | 1.0236 | 49% |
 Full per‑horizon results are available in the paper and inside each notebook.
 
 ## Getting Started
